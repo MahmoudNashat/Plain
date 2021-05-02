@@ -73,6 +73,7 @@ $('.nav-link').click(function(e) {
         },
         500: {
             perView: 1,
+            focusAt: 0
         }
         }
     })      
