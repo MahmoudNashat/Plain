@@ -1,0 +1,447 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    link(rel="stylesheet", href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;700&display=swap")
+    link(rel="stylesheet", href="https://cdn.lineicons.com/2.0/LineIcons.css")
+    link(rel="stylesheet", href="css/glide.core.min.css")
+    link(rel="stylesheet", href="css/animate.css")
+    link(rel="stylesheet", href="css/bootstrap.min.css")
+    link(rel="stylesheet", href="css/main.css")
+    title Plain
+  body
+    header
+      nav(class="navbar navbar-expand-lg navbar-light bg-light fixed-top")
+        .container
+          a(class="navbar-brand", href="index.html")
+            img(src="images/logo.svg", alt="logo-img")
+          button(class="navbar-toggler", type="button", data-bs-toggle="collapse", data-bs-target="#navbarNav", aria-expanded="false", aria-label="toggle-navigation", aria-controls="navbarNav")
+            span(class="navbar-toggler-icon")
+          .collapse.navbar-collapse(id="navbarNav")
+            ul(class="navbar-nav")
+              li(class="nav-item")
+                a(class="nav-link active" data-section=".header" href="#header") Home
+              li(class="nav-item")
+                a(class="nav-link" data-section=".work-process" href="#workprocess") About
+              li(class="nav-item")
+                a(class="nav-link" data-section=".our-services" href="#ourservices") Services
+              li(class="nav-item")
+                a(class="nav-link" data-section=".works" href="#works") Projects
+              li(class="nav-item")
+                a(class="nav-link" data-section=".pricing-plans" href="#pricing") Pricing
+              li(class="nav-item")
+                a(class="nav-link" data-section=".blog" href="#blog") Blog
+              li(class="nav-item")
+                a(class="nav-link" data-section=".contact" href="#contact") Contact
+      section(class="header d-flex align-items-center" id="header")
+        .container
+          .row.align-items-center
+            .col-12.col-lg-6
+              .header-.py-5
+                .header-info.wow.fadeInLeft(data-wow-duration="2s" data-wow-offset="200")
+                  h1(class="header-title") Creative Multipurpose Bootstrap
+                    span Template
+                  p(class="header-paragraph") Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna.
+                  button(class="header-btn") Get Started
+              .shapes
+                .shape-1
+                  img(src="images/shape/shape-1.svg")
+                .shape-2
+                  img(src="images/shape/shape-2.svg")          
+                .shape-3
+                  img(src="images/shape/shape-3.svg")
+                .shape-4
+                  img(src="images/shape/shape-4.svg")
+                .shape-5
+                  img(src="images/shape/shape-1.svg")
+                .shape-6
+                  img(src="images/shape/shape-2.svg")          
+                .shape-7
+                  img(src="images/shape/shape-3.svg")
+                .shape-8
+                  img(src="images/shape/shape-4.svg")
+                .shape-9
+                  img(src="images/shape/shape-1.svg")
+                .shape-10
+                  img(src="images/shape/shape-2.svg")          
+                .shape-11
+                  img(src="images/shape/shape-3.svg")
+                .shape-12
+                  img(src="images/shape/shape-4.svg")
+            .col-12.col-lg-6
+              .header-img.wow.fadeInRight(data-wow-duration="2s" data-wow-offset="200")
+                img(src="images/header-image.svg")
+    section(class="work-process text-center" id="workprocess")
+      h4(class="section-title") About
+      h2(class="section-head") Work Process
+      .container 
+        .row.justify-content-center 
+          .col-12.col-lg-4.wow.fadeInUp(data-wow-duration="1s" data-wow-offset="200" data-wow-delay=".5s")
+            .process-container
+              .icon 
+                i(class="lni lni-write")
+              h4(class="title") Reshearch 
+              p Lorem ipsum dolor sit amet, consetetur sadi aliquyam erat, sed diam voluptua. At vero eos accusam et justo duo dolores
+          .col-12.col-lg-4.wow.fadeInUp(data-wow-duration="1s" data-wow-offset="200" data-wow-delay="1s")
+            .process-container
+              .icon 
+                i(class="lni lni-bulb")
+              h4(class="title") Prototype
+              p Lorem ipsum dolor sit amet, consetetur sadi aliquyam erat, sed diam voluptua. At vero eos accusam et justo duo dolores
+          .col-12.col-lg-4.wow.fadeInUp(data-wow-duration="1s" data-wow-offset="200" data-wow-delay="1.5s")
+            .process-container
+              .icon 
+                i(class="lni lni-checkmark-circle")
+              h4(class="title") Build
+              p Lorem ipsum dolor sit amet, consetetur sadi aliquyam erat, sed diam voluptua. At vero eos accusam et justo duo dolores            
+    section(class="why-choose-us")
+      .row.justify-content-center 
+        .col-12.col-xl-6.wow.bounceInLeft(data-wow-duration="1s" data-wow-offset="200")
+          .section-img.d-flex.align-items-end.justify-content-center
+            img(src="images/about.svg")
+        .col-12.col-xl-6.wow.bounceInUp(data-wow-duration="1s" data-wow-offset="200")
+          .container
+            .section-info
+              h4(class="section-title") Why Choose Us
+              h2(class="section-head") Your Goal Is Our Achievement
+              p Nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed diam voluptua. At vero eos et accusam et justo duo dolores et rebum. Stet clita kasd gubergren, no sea takimata sanctus.
+              ul(class="about-check list-unstyled")
+                li(class="content d-flex")
+                  .icon 
+                    i(class="lni lni-checkmark-circle")
+                  .info Vero eos et accusam et justo duo dolores et rebum. Stet clita kasd gubergrenv clita kasd gubergrenv
+                li(class="content d-flex")
+                  .icon 
+                    i(class="lni lni-checkmark-circle")
+                  .info Vero eos et accusam et justo duo dolores et rebum. Stet clita kasd gubergrenv clita kasd gubergrenv
+                li(class="content d-flex")
+                  .icon 
+                    i(class="lni lni-checkmark-circle")
+                  .info Vero eos et accusam et justo duo dolores et rebum. Stet clita kasd gubergrenv clita kasd gubergrenv
+
+    section(class="our-services text-center" id="ourservices")
+      h4(class="section-title") What We Do
+      h2(class="section-head") Our Services
+      .container 
+        .row
+          .col-12.col-lg-4.wow.bounceIn(data-wow-duration="1s" data-wow-offset="200" data-wow-delay=".5s")
+            .services-container
+              .icon 
+                i(class="lni lni-layout")
+              h4(class="title") Web Design
+              p Lorem ipsum dolor sit amet, consetetur sadi aliquyam erat, sed diam voluptua. At vero eos accusam et justo duo dolores
+          .col-12.col-lg-4.wow.bounceIn(data-wow-duration="1s" data-wow-offset="200" data-wow-delay="1s")
+            .services-container
+              .icon 
+                i(class="lni lni-bullhorn")
+              h4(class="title") Digital Marketing
+              p Lorem ipsum dolor sit amet, consetetur sadi aliquyam erat, sed diam voluptua. At vero eos accusam et justo duo dolores
+          .col-12.col-lg-4.wow.bounceIn(data-wow-duration="1s" data-wow-offset="200" data-wow-delay="1.5s")
+            .services-container
+              .icon 
+                i(class="lni lni-mobile")
+              h4(class="title") Mobile Apps
+              p Lorem ipsum dolor sit amet, consetetur sadi aliquyam erat, sed diam voluptua. At vero eos accusam et justo duo dolores            
+          .col-12.col-lg-4.wow.bounceIn(data-wow-duration="1s" data-wow-offset="200" data-wow-delay="2s")
+            .services-container
+              .icon 
+                i(class="lni lni-seo")
+              h4(class="title") SEO Consultancy
+              p Lorem ipsum dolor sit amet, consetetur sadi aliquyam erat, sed diam voluptua. At vero eos accusam et justo duo dolores
+          .col-12.col-lg-4.wow.bounceIn(data-wow-duration="1s" data-wow-offset="200" data-wow-delay="2.5s")
+            .services-container
+              .icon 
+                i(class="lni lni-layers")
+              h4(class="title") Graphic Design
+              p Lorem ipsum dolor sit amet, consetetur sadi aliquyam erat, sed diam voluptua. At vero eos accusam et justo duo dolores
+          .col-12.col-lg-4.wow.bounceIn(data-wow-duration="1s" data-wow-offset="200" data-wow-delay="3s")
+            .services-container
+              .icon 
+                i(class="lni lni-briefcase")
+              h4(class="title") Business consultancy
+              p Lorem ipsum dolor sit amet, consetetur sadi aliquyam erat, sed diam voluptua. At vero eos accusam et justo duo dolores            
+    section(class="works" id="works")
+      h4(class="section-title") Works
+      h2(class="section-head") Some of Our Recent Works
+      .glide.works-slider.wow.bounceInUp(data-wow-duration="1s" data-wow-offset="200")
+        div(class="glide__track" data-glide-el="track")
+          .glide__slides
+            .glide__slide
+              .card 
+                img(src="images/work-1.jpg")
+                .card-body 
+                  h5(class="card-title") SEO 
+                    a(class="card-link" href="#")
+                      i(class="lni lni-chevron-right")
+                  p(class="card-text") PageBulb
+            .glide__slide
+              .card 
+                img(src="images/work-2.jpg")
+                .card-body 
+                  h5(class="card-title") Mobile App
+                    a(class="card-link" href="#")
+                      i(class="lni lni-chevron-right")
+                  p(class="card-text") Rocket Internet LTD
+            .glide__slide
+              .card 
+                img(src="images/work-3.jpg")
+                .card-body 
+                  h5(class="card-title") Marketing 
+                    a(class="card-link" href="#")
+                      i(class="lni lni-chevron-right")
+                  p(class="card-text") NoCodeAPI
+            .glide__slide
+              .card 
+                img(src="images/work-1.jpg")
+                .card-body 
+                  h5(class="card-title") Creative Design
+                    a(class="card-link" href="#")
+                      i(class="lni lni-chevron-right")
+                  p(class="card-text") UIdeck
+            .glide__slide
+              .card 
+                img(src="images/work-4.jpg")
+                .card-body 
+                  h5(class="card-title") Web Design
+                    a(class="card-link" href="#")
+                      i(class="lni lni-chevron-right")
+                  p(class="card-text") Gray Grids
+            .glide__slide
+              .card 
+                img(src="images/work-2.jpg")
+                .card-body 
+                  h5(class="card-title") Business Analysis
+                    a(class="card-link" href="#")
+                      i(class="lni lni-chevron-right")
+                  p(class="card-text") Ayro UI
+            .glide__slide
+              .card 
+                img(src="images/work-5.jpg")
+                .card-body 
+                  h5(class="card-title") SMM
+                    a(class="card-link" href="#")
+                      i(class="lni lni-chevron-right")
+                  p(class="card-text") Line Icons
+        div(class="glide__bullets slider__bullets" data-glide-el="controls[nav]")
+          button(class="glide__bullet" data-glide-dir="=0") 
+          button(class="glide__bullet" data-glide-dir="=1") 
+          button(class="glide__bullet" data-glide-dir="=2")
+          button(class="glide__bullet" data-glide-dir="=3") 
+          button(class="glide__bullet" data-glide-dir="=4") 
+          button(class="glide__bullet" data-glide-dir="=5") 
+          button(class="glide__bullet" data-glide-dir="=6") 
+    section(class="pricing-plans text-center" id="pricing")
+      h4(class="section-title") Pricing Plans
+      h2(class="section-head") Choose Your Plan
+      .pricing-time-options 
+        span(class="monthly active") Monthly
+        span(class="yearly") Yearly
+      .container 
+        .monthly-container
+          .row 
+            .col-12.col-lg-4.wow.fadeInLeft(data-wow-duration="1s" data-wow-offset="200")
+              .price-container
+                h4(class="price-title") Basic
+                h3(class="price-num") $ 19.00
+                p Lorem ipsum dolor sit amet, consetetur sadi aliquyam erat, sed diam voluptua. At vero eos accusam et justo duo dolores
+                button(class="price-btn") Choose Plan
+            .col-12.col-lg-4.wow.fadeInUp(data-wow-duration="1s" data-wow-offset="200")
+              .price-container.active
+                h4(class="price-title") Standerd
+                h3(class="price-num") $ 39.00
+                p Lorem ipsum dolor sit amet, consetetur sadi aliquyam erat, sed diam voluptua. At vero eos accusam et justo duo dolores
+                button(class="price-btn") Choose Plan
+            .col-12.col-lg-4.wow.fadeInRight(data-wow-duration="1s" data-wow-offset="200")
+              .price-container
+                h4(class="price-title") Premium
+                h3(class="price-num") $ 99.00
+                p Lorem ipsum dolor sit amet, consetetur sadi aliquyam erat, sed diam voluptua. At vero eos accusam et justo duo dolores
+                button(class="price-btn") Choose Plan
+        .yearly-container
+          .row
+            .col-12.col-lg-4.wow.fadeInLeft(data-wow-duration="1s" data-wow-offset="200")
+              .price-container
+                h4(class="price-title") Basic
+                h3(class="price-num") $ 99.00
+                p Lorem ipsum dolor sit amet, consetetur sadi aliquyam erat, sed diam voluptua. At vero eos accusam et justo duo dolores
+                button(class="price-btn") Choose Plan
+            .col-12.col-lg-4.wow.fadeInUp(data-wow-duration="1s" data-wow-offset="200")
+              .price-container.active
+                h4(class="price-title") Standard
+                h3(class="price-num") $ 199.00
+                p Lorem ipsum dolor sit amet, consetetur sadi aliquyam erat, sed diam voluptua. At vero eos accusam et justo duo dolores
+                button(class="price-btn") Choose Plan
+            .col-12.col-lg-4.wow.fadeInRight(data-wow-duration="1s" data-wow-offset="200")
+              .price-container
+                h4(class="price-title") Premium
+                h3(class="price-num") $ 499.00
+                p Lorem ipsum dolor sit amet, consetetur sadi aliquyam erat, sed diam voluptua. At vero eos accusam et justo duo dolores
+                button(class="price-btn") Choose Plan
+    section(class="team")
+      h4(class="section-title") Team
+      h2(class="section-head") Meet Our Team Members
+      .container 
+        .glide.team-slider.wow.bounceInUp(data-wow-duration="1s" data-wow-offset="200")
+          div(class="glide__track" data-glide-el="track")
+            .glide__slides
+              .glide__slide              
+                .card
+                  img(src="images/team/team-1.jpg")
+                  .card-body 
+                    h5(class="card-title") Rob Hope
+                    p(class="card-text") UI Designer
+                .social-icons
+                  i(class="lni lni-facebook-filled")
+                  i(class="lni lni-twitter-filled")
+                  i(class="lni lni-linkedin-original")
+              .glide__slide              
+                .card                  
+                  img(src="images/team/team-2.jpg")
+                  .card-body 
+                    h5(class="card-title") Michel Jordan
+                    p(class="card-text") Business Development Manager
+                .social-icons
+                  i(class="lni lni-facebook-filled")
+                  i(class="lni lni-twitter-filled")
+                  i(class="lni lni-linkedin-original")
+              .glide__slide              
+                .card                  
+                  img(src="images/team/team-3.jpg")
+                  .card-body 
+                    h5(class="card-title") Sarah Doe
+                    p(class="card-text") Dr.Software Engineer
+                .social-icons
+                  i(class="lni lni-facebook-filled")
+                  i(class="lni lni-twitter-filled")
+                  i(class="lni lni-linkedin-original")
+              .glide__slide              
+                .card                  
+                  img(src="images/team/team-4.jpg")
+                  .card-body 
+                    h5(class="card-title") Chris Dave
+                    p(class="card-text") Founder and SEO
+                .social-icons
+                  i(class="lni lni-facebook-filled")
+                  i(class="lni lni-twitter-filled")
+                  i(class="lni lni-linkedin-original")
+          div(class="glide__bullets slider__bullets" data-glide-el="controls[nav]")
+            button(class="glide__bullet" data-glide-dir="=0") 
+            button(class="glide__bullet" data-glide-dir="=1") 
+            button(class="glide__bullet" data-glide-dir="=2")
+            button(class="glide__bullet" data-glide-dir="=3")
+    section(class="blog" id="blog") 
+      h4(class="section-title") Blog
+      h2(class="section-head") From The Blog      
+      .container
+        .row 
+          .col-12.col-lg-4.wow.bounceIn(data-wow-duration="1s" data-wow-delay=".5s")
+            .card
+              img(src="images/blog-1.jpg")
+              .card-body
+                .card-text.d-flex.justify-content-between
+                  span(class="writer") By: 
+                    span(class="link") Mostafa zaki
+                  span(class="date") 15 June 2021
+                h5(class="card-title") How to track your business revenue
+                p(class="card-link") Read More          
+          .col-12.col-lg-4.wow.bounceIn(data-wow-duration="1s" data-wow-delay="1s")
+            .card
+              img(src="images/blog-2.jpg")
+              .card-body
+                .card-text.d-flex.justify-content-between
+                  span(class="writer") By: 
+                    span(class="link") Mohamed sadek
+                  span(class="date") 19 May 2021
+                h5(class="card-title") Improving products depending on feedback
+                p(class="card-link") Read More          
+          .col-12.col-lg-4.wow.bounceIn(data-wow-duration="1s" data-wow-delay="1.5s")
+            .card
+              img(src="images/blog-3.jpg")
+              .card-body
+                .card-text.d-flex.justify-content-between
+                  span(class="writer") By: 
+                    span(class="link") Mahmoud nashat
+                  span(class="date") 18 Augest 2021
+                h5(class="card-title") How to diversify your audience
+                p(class="card-link") Read More
+    section(class="contact" id="contact")
+      .row.justify-content-center 
+        .col-12.col-xl-6.wow.bounceInLeft(data-wow-duration="1s")
+          .section-img.d-flex.align-items-end.justify-content-center
+            img(src="images/contact.svg")
+        .col-lg-6.col-12.wow.bounceInUp(data-wow-duration="1s")
+          .container 
+            .section-info
+              h4(class="section-title") Why Choose Us
+              h2(class="section-head") Your Goal Is Our 
+              p(class="section-text") Lorem ipsum dolor sitrg amet, consetetur sadipscing elitr sed diam nonumy eirmod tempor invidunt ut labore et dolore magna.
+              .contact-form             
+                .row 
+                  .col 
+                    input(class="name-input form-control" ,type="text", placeholder="Name")
+                  .col  
+                    input(class="email-input form-control" ,type="email", placeholder="Email")
+                  .col-12
+                    textarea(class="form-control", name="message", placeholder="Message", spellcheck="false")
+                button(class="submit", type="submit") Submit
+    footer(class="footer")
+      .footer-info 
+        .container 
+          .row 
+            .col-12.col-lg-3 
+              .footer-logo 
+                img(src="images/logo-footer.svg")
+              p(class="footer-text") Lorem ipsum dolor sitco nsetetu nonumy eirmod tempor invidunt ut labore et dolore magna uyam erat, sed diam.
+            .col-6.col-lg-3 
+              ul(class="quick-links list-unstyled")
+                h4 Quick Links
+                li Company
+                li Private Policy
+                li About
+            .col-6.col-lg-3 
+              ul(class="resources list-unstyled")
+                h4 Resourses
+                li Support
+                li Contact
+                li Terms 
+            .col-12.col-lg-3 
+              .newsletter 
+                h4 Newsletter
+                .subscribe-form 
+                  input(type="email" class="form-control" placeholder="Enter email")
+                  button(class="footer-btn") Subscribe
+      .footer-social
+        .container            
+          hr
+          .row.justify-content-between
+            .col-12.col-lg-6 
+              .social-icons 
+                i(class="lni lni-facebook-filled")
+                i(class="lni lni-instagram-original")
+                i(class="lni lni-linkedin-original")
+                i(class="lni lni-twitter-filled")
+            .col-12.col-lg-6 
+              .copyrights-info
+                p Developed by 
+                  a(href="") Mahmoud nashat
+    .loading-screen 
+      .spinner 
+        .double-bounce1             
+        .double-bounce2
+    .scroll-to-top 
+      i(class="lni lni-chevron-up")
+
+
+
+
+
+
+
+    script(src="js/popper.js")
+    script(src="js/wow.min.js")
+    script(src="js/bootstrap.min.js")
+    script(src="js/jquery-3.1.0.min.js")
+    script(src="js/glide.min.js")
+    script(src="js/main.js")
